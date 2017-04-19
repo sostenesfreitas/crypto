@@ -1,0 +1,67 @@
+{
+    "moeda":[
+        {
+            "name": "Dash",
+            "total": "15.46221277" ,
+            "coin": "DASH" ,
+            "buyPrice":"0.09776196",
+            "logo": "https://i.imgur.com/qiIMHZr.png"
+        },
+        {
+            "name": "BitcoinDark",
+            "total": "1.03902045",
+            "coin": "BTCD",
+            "buyPrice": "0.02400100",
+            "logo": "http://bitbillions.net/wp-content/uploads/2014/07/BITCOINDARK2.jpg"
+        },
+        {
+            "name": "Decred",
+            "total": "3.97474691",
+            "coin": "DCR",
+            "buyPrice": "0.01010008",
+            "logo": "http://www.altcoinwatch.com/wp-content/uploads/2016/07/decred-logo.png"
+        },
+        {
+            "name": "Factom",
+            "total": "2.87094552",
+            "coin": "FCT",
+            "buyPrice": "0.00347453",
+            "logo": "https://pbs.twimg.com/profile_images/848526728708239360/5hC-ie8r.jpg"
+        },
+        {
+            "name": "Lisk",
+            "total": "66.68208213",
+            "coin": "LSK",
+            "buyPrice": "0.00030224",
+            "logo": "https://pbs.twimg.com/profile_images/693005622267269121/WCttamlO.png"
+        },
+        {
+            "name": "STEEM",
+            "total": "44.60647026",
+            "coin": "STEEM",
+            "buyPrice": "0.00018592",
+            "logo": "http://cryptocoinview.com/coinicons/steem.jpg"
+        },
+        {
+            "name": "Ripple",
+            "total": "640.11626132",
+            "coin": "XRP",
+            "buyPrice": "0.00000938",
+            "logo": "https://ripple.com/wp-content/uploads/2014/10/mark.png"
+        },
+        {
+            "name": "Monero",
+            "total": "1.09836051",
+            "coin": "XMR",
+            "buyPrice": "0.01999441",
+            "logo": "https://pbs.twimg.com/profile_images/473825289630257152/PzHu2yli.png"
+        },
+        {
+          "name": "LiteCoin",
+          "total": "2.26704832",
+          "coin": "LTC",
+          "buyPrice": "0.00395768",
+          "logo": "http://2.bp.blogspot.com/-TfzvgtdVFEs/VSBQPTfBOpI/AAAAAAAAEL4/_NDG_jfdX6I/s1600/litecoin.png"
+        }
+    ]
+}
