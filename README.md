@@ -1,5 +1,6 @@
-# crypto
-[Download](https://drive.google.com/file/d/0B1UcXsIHFjzeSHRKOXU1c05MQ00/view?usp=drivesdk)
+# Crypto Holding
+Confira o App
+https://play.google.com/store/apps/details?id=io.cordova.crypto
 
 Aplicação bem basica para quem é holder.
 
