@@ -1,3 +1,4 @@
+
 // === DEFAULT / CUSTOM STYLE ===
 // WARNING! always comment out ONE of the two require() calls below.
 // 1. use next line to activate CUSTOM STYLE (./src/themes)
@@ -10,7 +11,8 @@ import Vue from 'vue'
 import Quasar from 'quasar'
 import router from './router'
 var VueResource = require('vue-resource')
-
+import Vue2Filters from 'vue2-filters'
+Vue.use(Vue2Filters)
 Vue.use(Quasar) // Install Quasar Framework
 Vue.use(VueResource)
 

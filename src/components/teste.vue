@@ -2,20 +2,16 @@
   <div class="">
     <div slot="header" class="toolbar dark shadow-2">
       <q-toolbar-title :padding="0">
-        Adicionar Coin
+        Add Coin
       </q-toolbar-title>
         <button>
           <i>more_vert</i>
           <q-popover ref="popover1">
-             <div class="text-center column justify-center" style="min-width: 150px; height: 80px;">
+             <div class="text-center column justify-center" style="min-width: 100px; height: 50px;">
                <div
                  class=""
                  @click="$refs.popover1.close()"
                >
-               <router-link to="/tutorial">
-                 <h6>Criar API</h6>
-               </router-link>
-                 <hr>
                  <router-link to="/sobre">
                    <h6>Sobre</h6>
                  </router-link>
@@ -24,26 +20,26 @@
            </q-popover>
         </button>
     </div>
-    <div class="cont">
-      <div class="column">
+    <div class="cont layout-view card">
+
+      <div class="row wrap">
         Coin:
-         <q-select type="radio" v-model="select" :options="selectOptions"></q-select>
+         <q-select type="radio" class="full-width" v-model="select" :options="selectOptions"></q-select>
          <div class="floating-label">
-           <input required class="full-width text-white" v-model="total">
+           <input required class="full-width text-white" v-model="total" type="number">
            <label class="text-white">Total</label>
         </div>
         <div class="floating-label">
-          <input required class="full-width text-white" v-model="buyPrice">
-          <label class="text-white">Buy Price 0.09776196</label>
-       </div>
-        <button class="primary push" style="margin: 2% 0 2% 0" @click="inserir()">OK</button>
+          <input required class="full-width text-white" v-model="buyPrice" type="number">
+          <label class="text-white">Buy Price in Btc: 0.09776196</label>
+       </div class="float-right">
+        <button class="positive push" style="margin: 2% 0 0 78%; padding: 0 9% 0 9%" @click="inserir()">OK</button>
       </div>
-      <div class="row wrap justify-between" v-for="m in moeda">
+
+    <!--  <div class="row wrap justify-between" v-for="m in moeda">
         <p>{{m.name}}</p>
-        <p>{{m.buyPrice}}</p>
-        <p>{{m.total}}</p>
         <button class="negative" v-on:click="del(m.idmoeda)">delete</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -70,7 +66,7 @@ export default {
         },
         {
           label: 'BitcoinDark',
-          value: ['BTCD', 'http://bitbillions.net/wp-content/uploads/2014/07/BITCOINDARK2.jpg']
+          value: ['BTCD', 'https://s-media-cache-ak0.pinimg.com/originals/1f/0c/21/1f0c219cf8f9afb5effa905d311d95e9.jpg']
         },
         {
           label: 'Decred',
@@ -135,8 +131,9 @@ export default {
 </script>
 <style lang="styl" scoped>
   .cont
+    background-color rgba(52, 52, 52, 0.37)
     color #ffffff
-    padding 1%
+    padding 20px
   input:not(.no-style), textarea:not(.no-style), .textfield:not(.no-style)
     border-bottom 1px solid #eee
 </style>
